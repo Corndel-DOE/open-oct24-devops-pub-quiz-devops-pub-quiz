@@ -12,7 +12,7 @@ print("Welcome to the Git Pub Quiz!")
 # List of funny Git-related questions, options, and answers
 quiz_questions = [
     {
-        "question": "What does 'git commit -m' do?",
+        "question": "What does 'git commit -m' do? ",
         "options": [
             "A) Starts a therapy session for your code",
             "B) Creates a new branch for experimentation",

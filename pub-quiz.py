@@ -13,6 +13,11 @@ quiz_questions = [
         "options": ["A) 3", "B) 4", "C) 5", "D) 22"],
         "answer": "B"
     },
+    {
+        "question": "What is the capital of England?",
+        "options": ["A) London", "B) Paris", "C) Berlin", "D) Madrid"],
+        "answer": "A"
+    }
     # Learners can add more questions here following the same structure
 ]
 

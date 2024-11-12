@@ -4,14 +4,19 @@ print("Welcome to the Pub Quiz!")
 # List of questions, options, and answers
 quiz_questions = [
     {
-        "question": "What is the capital of France?",
-        "options": ["A) London", "B) Paris", "C) Berlin", "D) Madrid"],
+        "question": "What is the symbol (ticker) for Bitcoin??",
+        "options": ["A) BB", "B) BTC", "C) BT", "D) BIT"],
         "answer": "B"
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["A) 3", "B) 4", "C) 5", "D) 22"],
+        "question": "Who created Bitcoin?",
+        "options": ["A) USA goverment", "B) Satoshi Nakamoto", "C) Craig Wright", "D) Adam Back"],
         "answer": "B"
+    },
+    {
+        "question": "What is the market cap of Bitcoin?",
+        "options": ["A) 100 milion", "B) Unlimited", "C) 1 bilion", "D) 21 milion"],
+        "answer": "D"
     },
     # Learners can add more questions here following the same structure
 ]

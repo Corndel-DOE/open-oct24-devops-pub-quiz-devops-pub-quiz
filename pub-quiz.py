@@ -4,7 +4,7 @@
 GREEN = "\033[92m"
 RED = "\033[91m"
 YELLOW = "\033[93m"
-RESET = "\033[0m"  # Reset to default color
+RESET = "\033[0m"  # Reset to default   color
 
 # Welcome message for the quiz
 print("Welcome to the Git Pub Quiz!")
@@ -12,7 +12,7 @@ print("Welcome to the Git Pub Quiz!")
 # List of funny Git-related questions, options, and answers
 quiz_questions = [
     {
-        "question": "What does 'git commit -m' do? ",
+        "question": "What does 'git commit -m' do?",
         "options": [
             "A) Starts a therapy session for your code",
             "B) Creates a new branch for experimentation",
@@ -88,7 +88,7 @@ for question in quiz_questions:
     else:
         print(f"{RED}Wrong! The correct answer was {question['answer']}.{RESET}")
 
-# final score
+# final
 total_questions = len(quiz_questions)
 print(f"\n{GREEN}Your final score is {score}/{total_questions}.{RESET}")
 print("Thanks for playing the Git Pub Quiz!")

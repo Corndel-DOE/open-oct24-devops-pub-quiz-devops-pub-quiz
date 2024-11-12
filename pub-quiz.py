@@ -9,12 +9,27 @@ quiz_questions = [
         "answer": "B"
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["A) 3", "B) 4", "C) 5", "D) 22"],
-        "answer": "B"
+        "question": "Which of the following is the largest planet in the solar system?",
+        "options": ["A) Earth", "B) Saturn", "C) Mars", "D) Jupiter"],
+        "answer": "D"
+
+    },
+    {
+        "question": "Which year did Lewis Hamilton win his first world championship in Formula 1 racing?",
+        "options": ["A) 2001", "B) 2005", "C) 2007", "D) 2008"],
+        "answer": "D"
+        
+    },
+    {
+        "question": "Which of the following animals is the fastest land mammal?",
+        "options": ["A) Horse", "B) Cow", "C) Cat", "D) Cheetah"],
+        "answer": "D"
+        
     },
     # Learners can add more questions here following the same structure
 ]
+
+score = 0
 
 # Loop through each question
 for question in quiz_questions:
@@ -29,8 +44,12 @@ for question in quiz_questions:
     # Check if the answer is correct
     if user_answer == question["answer"]:
         print("Correct!")
+        score += 1
     else:
         print(f"Wrong! The correct answer was {question['answer']}.")
+    
+# Display score
+print(f"You scored {score} out of {len(quiz_questions)}.")
 
 # Goodbye message
 print("Thanks for playing the Pub Quiz!")
